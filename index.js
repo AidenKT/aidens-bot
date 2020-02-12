@@ -1,7 +1,7 @@
-//const { Client, Collection } = require("discord.js");
-//const client = new Client();
-//var fs = require("fs");
-//var path = require('path');
+const { Client, Collection } = require("discord.js");
+const client = new Client();
+var fs = require("fs");
+var path = require('path');
 
   ["aliases", "commands"].forEach(x => (client[x] = new Collection()));
   ["command", "events"].forEach(x => require(`./handlers/${x}`)(client));
