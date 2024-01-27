@@ -18,7 +18,7 @@
     "got": "^12.5.3",
     "hastebin-gen": "^2.0.5",
     "minecraft-server-util": "^1.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "node-opus": "^0.3.2",
     "os": "^0.1.1",
     "parse-ms": "^2.0.0",
